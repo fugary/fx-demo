@@ -1,0 +1,14 @@
+.grayButton{
+    -fx-background-radius: 45px;
+    -fx-background-color: #A4A4A4;
+}
+
+.yellowButton{
+    -fx-background-radius: 45px;
+    -fx-background-color: #F79F31;
+}
+
+.normalButton{
+    -fx-background-radius: 45px;
+    -fx-background-color: #333333;
+}
