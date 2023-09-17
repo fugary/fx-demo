@@ -81,7 +81,7 @@ public class CalcController {
      * 退格键处理
      */
     public void onBackButtonClicked() {
-        if (TEXT_LIST.size() > 0) {
+        if (!TEXT_LIST.isEmpty()) {
             TEXT_LIST.remove(TEXT_LIST.size() - 1);
         }
         renderText();
@@ -144,6 +144,7 @@ public class CalcController {
     public void onAllClearButtonClicked(ActionEvent event) {
         clearText();
         CALC_STACK.clear();
+        renderPreviewLabel();
     }
 
     /**
